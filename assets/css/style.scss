@@ -8,4 +8,30 @@
 div.contents {
     display: flex;
     border: 1px solid gray;
+
+}
+
+.banner-login {
+    background-color: #71C9CE;
+    color: #ffffff;
+    padding: 40px;
+
+    h2 {
+        font-weight: 400;
+        font-size: 36px;
+        margin: 20px;
+    }
+
+    p {
+        display: block;
+        margin: 20px;
+    }
+
+    a {
+        padding: 10px;
+        text-decoration: none;
+        background-color: #F67280;
+        margin: 20px;
+        color: white;
+    }
 }

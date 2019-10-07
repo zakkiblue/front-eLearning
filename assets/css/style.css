@@ -27,6 +27,7 @@ div.contents {
   display: flex;
   background-color: #fff;
   height: 400px;
+  margin: 0 auto;
 }
 
 .banner-login {
@@ -90,6 +91,40 @@ div.contents {
 
 .form-login button:hover {
   background-color: #3da0a5;
+}
+
+div.ilustrasi {
+  width: 50vw;
+}
+
+div.ilustrasi img {
+  width: 80%;
+}
+
+h1.mapel {
+  margin: 40px;
+}
+
+h1.mapel span {
+  color: #71C9CE;
+}
+
+div.list-mapel {
+  width: 50vw;
+  padding: 40px;
+}
+
+div.list-mapel ol {
+  list-style-type: decimal;
+}
+
+div.list-mapel ol li {
+  padding: 5px 20px;
+  font-size: 30px;
+}
+
+div.list-mapel ol li a {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 767px) {

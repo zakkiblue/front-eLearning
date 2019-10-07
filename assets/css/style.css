@@ -101,6 +101,10 @@ div.contents {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: auto;
+  }
+  div.contents .form-login {
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

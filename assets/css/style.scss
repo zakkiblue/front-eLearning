@@ -94,6 +94,11 @@ div.contents {
 
     div.contents {
         flex-direction: column;
+        height: auto;
+
+        .form-login {
+            height: 100vh;
+        }
 
     }
 }

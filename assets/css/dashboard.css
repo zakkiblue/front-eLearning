@@ -30,16 +30,22 @@ nav {
 }
 
 nav .foto-profil {
-  margin: 50px 20px;
+  margin: 50px 20px 5px 20px;
   background-color: white;
   border-radius: 50%;
   height: 150px;
   width: 150px;
 }
 
+nav p {
+  color: white;
+}
+
 nav ul {
+  margin-top: 20px;
   list-style: none;
   width: 100%;
+  text-align: left;
 }
 
 nav li {
@@ -51,5 +57,10 @@ nav li {
 
 nav li:hover {
   background-color: #3da0a5;
+}
+
+.main-content {
+  padding-left: 50px;
+  padding-top: 50px;
 }
 /*# sourceMappingURL=dashboard.css.map */

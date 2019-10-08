@@ -131,6 +131,10 @@ div.list-mapel ol li a {
   text-decoration: none;
 }
 
+.contents.signup {
+  height: 500px;
+}
+
 @media only screen and (max-width: 767px) {
   section.login {
     display: block;
@@ -144,6 +148,10 @@ div.list-mapel ol li a {
   }
   div.contents .form-login {
     height: 100vh;
+  }
+  .form-login.signup {
+    height: 500px;
+    background-color: #fff;
   }
 }
 /*# sourceMappingURL=style.css.map */

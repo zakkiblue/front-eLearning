@@ -128,9 +128,12 @@ div.list-mapel {
 
 // sign Up
 
-.signup {}
+.contents.signup {
+    height: 500px;
+}
 
 @media only screen and (max-width: 767px) {
+
     section.login {
         display: block;
     }
@@ -143,5 +146,10 @@ div.list-mapel {
             height: 100vh;
         }
 
+    }
+
+    .form-login.signup {
+        height: 500px;
+        background-color: #fff;
     }
 }

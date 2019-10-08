@@ -79,6 +79,10 @@ div.contents {
   border-bottom: 5px solid #eeeeee;
 }
 
+.form-login input:focus {
+  outline: none;
+}
+
 .form-login button {
   display: block;
   padding: 10px 20px;
